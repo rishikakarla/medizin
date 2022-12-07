@@ -1,7 +1,7 @@
 
 # ✨ Medizin ✨
 
-This is a web based application developed for health related based website in india
+This is a web based application developed for health related based website in india.these website is for FRT project by Rishi Kakarla
 
 ### This web based health application has been developed for the accomplishment of Future Ready Talent Internship program launched by Microsoft, Future Skills Prime, Quess, Github and EY.
 
@@ -23,9 +23,8 @@ This is a web based application developed for health related based website in in
 - User can know about health information through this website.
 - Included the feedback Survey form to increase the scope of improvement 
 
-## Screenshots
+## Screenshots of mediz website
 
-![Screenshot from 2022-12-07 09-35-16](https://user-images.githubusercontent.com/113053189/206085834-ee1db56c-670f-4366-ab84-5dcdb25d4153.png)
 ![Screenshot from 2022-12-07 09-35-22](https://user-images.githubusercontent.com/113053189/206085886-aabf66b7-362a-4544-9c38-339c87a0faaf.png)
 
 ![Screenshot from 2022-12-07 09-35-33](https://user-images.githubusercontent.com/113053189/206085891-ce24cc39-67bb-49f3-b97d-84d1184e38ed.png)
