@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			background-image: url("image.jpg");
+  			background-size: cover;
+  			background-repeat: no-repeat;
+		}
+		img{
+			width: 400px;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+		form {
+			width: 300px;
+			margin: 0 auto;
+			background-color: grey;
+			opacity: 0.8;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+		}
+		input[type="text"], input[type="password"] {
+			width: 90%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: none;
+			background-color: #f2f2f2;
+		}
+		input[type="submit"] {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #34e7ff;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+        .sign-in {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .sign-in a {
+            text-decoration: none;
+            color: #df31c2;
+        }
+	</style>
+</head>
+<body>
+	<img src="logo-removebg-preview.png" alt="Light for our future">
+	<form>
+		<h2>Registration Page </h2>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" placeholder="Enter your username">
+		
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" placeholder="Enter your email address">
+		
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password">
+		
+
+		<label for="confirm-password">Confirm Password:</label>
+		<input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter your password">
+		
+		
+		<label for="user-type">Select user type:</label>
+		<select id="user-type" name="user-type">
+			<option value="user">User</option>
+			<option value="doctor">Doctor</option>
+		</select>
+
+		<input type="submit" value="Sign Up">
+        <div class="sign-in">
+            <p>Already have an account?</p>
+            <a href="login.html"><b>Sign in</b></a>
+        </div>
+	</form>
+</body>
+</html>
