@@ -217,47 +217,26 @@
         </section>
         <!-- //banner-bottom -->
         <!-- /last-content -->
-        <section class="last-content">
-            <div class="overlay-last">
-                <div class="container text-center">
-                    <div class="last-w3pvt-inner-content row">
-
-                      <div class="col-md-6 offset-md-6">
-
-                            <form action="#" class="booking" method="post">
-                                <h3 class="mb-4">Book Appointment</h3>
-                                <div class="form-group">
-                                    <input placeholder="Your Name" name="name" type="text" required="">
-                                    <input placeholder="Contact Number" name="number" type="text" required="">
-                                    <input placeholder="Address" type="text" required="">
-                                    <input placeholder="Timing" type="text" required="">
-        <button class="book-appo btn mt-3" type="submit" name="submit">Quick Appointment</button>
-    </div>
-</form>
-
-<?php
-    if(isset($_POST['submit'])) {
-        $to = "kakarlarishi5124@gmail.com"; // replace with your email address
-        $name = $_POST['name'];
-        $number = $_POST['number'];
-        $address = $_POST['address'];
-        $timing = $_POST['timing'];
-        $subject = "Appointment Request";
-        $message = "Name: $name \n\n Contact Number: $number \n\n Address: $address \n\n Timing: $timing";
-        $headers = "From: your-email@example.com"; // replace with your email address
-        mail($to, $subject, $message, $headers);
-        echo "<p>Your appointment request has been sent. We will contact you shortly.</p>";
-    }
-?>
-
-
+        <div class="main_grid_contact">
+                        <div class="form">
+                            <h3 class="text-capitalize mb-4">Get In touch</h3>
+                            <form action="mailto:kakarlarishi5124@gmail.com" method="post">
+                                <div class="input-group mt-3">
+                                    <input type="text" class="margin2 form-control" name="name" placeholder="Full name" required="">
+                                    <input type="text" name="name" class="form-control" placeholder="Subject" required="">
+                                </div>
+                                <div class="input-group mt-3">
+                                    <input type="email" class="margin2 form-control" name="email" placeholder="mail@example.com" required="">
+                                    <input type="text" name="number" class="form-control" placeholder="phone number" required="">
+                                </div>
+                                <div class="input-group mt-3">
+                                    <textarea rows="4" cols="50" class="form-control" placeholder="message"></textarea>
+                                </div>
+                                <div class="input-group1 mt-3">
+                                    <button class="submit btn form-control">Send </button>
                                 </div>
                             </form>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- //last-content -->
         <section class="banner-bottom py-5">
             <div class="container py-md-5">
